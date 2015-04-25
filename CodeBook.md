@@ -35,6 +35,6 @@ The data source includes the following files:
 `run_analysis.R`completes the steps outlined in the project description
 
 * Similar test and train data sets, organized in a sub directory, are merged using the rbind function.
-* The mean and standard deviation measures are extracted from the Features dataset.
+* The mean and standard deviation measures are extracted from the features dataset.
 * The data points are then given more descriptive field names by merging data files and label files.
 * An independent tidy data set with the average of each descriptive variable for each activity and each subject is created.
