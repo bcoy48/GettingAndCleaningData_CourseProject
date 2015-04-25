@@ -26,7 +26,7 @@ x_data <- x_data[, mean_and_std_features]
 
 names(x_data) <- features[mean_and_std_features, 2]
 
-# Uses descriptive activity names to name the activities in the data set
+# Uses descriptive activity names to name the activities in the data set.
 
 activities <- read.table("activity_labels.txt")
 
